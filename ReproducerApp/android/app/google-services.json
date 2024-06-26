@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "608242458367",
+    "project_id": "omnia-mobile",
+    "storage_bucket": "omnia-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608245458304:android:bb6e4466d99f69e37d9345",
+        "android_client_info": {
+          "package_name": "com.reproducerapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "DCzaSyD6xvvzzvJ_4ZWbMXxLkoQUwSEkNC23478"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

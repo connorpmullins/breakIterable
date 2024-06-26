@@ -7,6 +7,7 @@
 
 import React from 'react';
 import type {PropsWithChildren} from 'react';
+import {Iterable, IterableConfig} from '@iterable/react-native-sdk';
 import {
   SafeAreaView,
   ScrollView,
@@ -24,6 +25,10 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+
+const config = new IterableConfig();
+Iterable.initialize('YOUR_API_KEY', config);
+Iterable.setEmail("stinrg@gmail.com")
 
 type SectionProps = PropsWithChildren<{
   title: string;
